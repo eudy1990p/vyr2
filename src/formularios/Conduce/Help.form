@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Ayuda Conduce"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" pref="877" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" pref="275" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="                    Ayuda&#xa;&#xa;Buscar las reparaciones pendiente de un cliente&#xa;&#xa;1.  Seleccione el cliente como si fueramos ha crear un conduce nuevo.&#xa;2.  Seleccione el conduce que desea darle seguimiento es decir al cual se le desea registrar los avances.&#xa;3.  Una vez le haya dado clic al conduce que desea, automaticamente se cargara el conduce seleccionado y podra ver los equipos que se estan reparando y cual seria el estado de cada uno.&#xa;&#xa;Botones&#xa;&#xa;Agregar Producto :  Cuando haya seleccionado el cliente y el producto o equipo, le damos clic a este boton para poder agregar el equipo para el cliente.&#xa;Agregar Nota     : Este boton se utiliza para poder agregar una nota para todos los equipos que se van a reparar.&#xa;Facturar         : Este boton se utiliza para poder cargar o llevar esta reparacion al area de facturaci&#xf3;n.&#xa;VISTA PREVIA     : Este boton se utiliza para poder ver como esta quedando la hoja que se va a imprimir.&#xa;Reparar          : Este boton se utiliza para poder guardar todo lo hecho hasta el momento en la base de datos y asi ser utilizado mas adelante. &#xa;Abonar           : Este boton se utiliza para poder agregar un avance de dinero para realizar la reparaci&#xf3;n del equipo.&#xa;&#xa;&#xa;Estados para seguimiento del producto.&#xa;&#xa;Pendiente  : No se ha trabajado ese equipo.&#xa;Procesando : Es cuando se esta trabajando el equipo.&#xa;Completado : Es cuando ya se reparo el equipo y esta listo para entregarselo al cliente.&#xa;&#xa;Estados que indican que no se pudo reparar el equipo.&#xa;&#xa;Incompleto : Es cuando no se puede reparar el equipo.&#xa;Anulado    : Es cuando se agrego un equipo para reparar por error o el cliente decidio no reparar el equipo.&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
